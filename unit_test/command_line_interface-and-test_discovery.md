@@ -55,11 +55,11 @@ For example, `-k foo` matches `foo_tests.SomeTest.test_something`, `bar_tests.So
 
 在回溯中显示局部变量。
 
-New in version 3.2: The command-line options `-b`, `-c` and `-f` were added.
+*New in version 3.2:* The command-line options `-b`, `-c` and `-f` were added.
 
-New in version 3.5: The command-line option `--locals`.
+*New in version 3.5:* The command-line option `--locals`.
 
-New in version 3.7: The command-line option `-k`.
+*New in version 3.7:* The command-line option `-k`.
 
 The command line can also be used for test discovery, for running all of the tests in a project or just a subset.
 
@@ -67,7 +67,7 @@ The command line can also be used for test discovery, for running all of the tes
 
 ## Test Discovery
 
-3.2 版中的新功能。
+*3.2 版中的新功能。*
 
 Unittest supports simple test discovery. In order to be compatible with test discovery, all of the test files must be modules or packages (including namespace packages) importable from the top-level directory of the project (this means that their filenames must be valid identifiers).
 
